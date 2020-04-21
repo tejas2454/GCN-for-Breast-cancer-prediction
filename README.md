@@ -1,2 +1,4 @@
-# Machine-Learning
-Machine Learning codes for Several Applications and DataSet
+# Breast Cancer Prediction using Graph Convolutional Network
+
+The objective is breast-cancer classification (two classes: “benign” and “malignant”). You are encouraged to use python for implementation. 
+Download the data from https://archive.ics.uci.edu/ml/machine-learning-databases/breast-cancer-wisconsin/wdbc.data It contains 569 rows, where each row is a sample. In each row, the first entry denotes patient-id, the second denotes the ground-truth category, and 3-32 entries denote 30 real-valued input features. Treat this 30-D vector as “h^0”. After the first aggregation, you may assume the dimension of “h^1” to be 30. Partition this randomly into ~70% training set, ~20% validation set and ~10% test set (take samples in this ratio from both the categories). After appropriately normalizing each feature vector, compute ‘k’ nearest neighbours (k=5) for each sample using an appropriate metric. Compare your results with kNN, SVM and logistic-regression classifiers. (You may use any publicly available toolkit for these; e.g., scikit). 
